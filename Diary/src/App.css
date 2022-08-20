@@ -31,3 +31,57 @@ body {
   min-height: 100vh;
   padding: 0 20px;
 }
+/* MyButton */
+.MyButton {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  white-space: nowrap; /* 버튼 안의 글자가 잘려서 두 줄이 되지 않도록 하는 것 */
+  font-family: "Yeon Sung", cursive;
+}
+
+.MyButton_default {
+  background-color: #ececec;
+  color: #000000;
+}
+
+.MyButton_positive {
+  background-color: #64c964;
+  color: #fff;
+}
+
+.MyButton_negative {
+  background-color: #fd565f;
+  color: #fff;
+}
+
+/* Header */
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+header > div {
+  display: flex;
+}
+
+header .head_text {
+  width: 50%;
+  font-size: 20px;
+  justify-content: center;
+}
+
+header .head_btn_left {
+  width: 25%;
+  justify-content: start;
+}
+
+header .head_btn_right {
+  width: 25%;
+  justify-content: end;
+}
