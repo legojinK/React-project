@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-
+import DiaryItem from "./DiaryItem";
 import MyButton from "./MyButton";
 
 const sortOptionList = [
@@ -72,21 +72,24 @@ const DiaryList = ({ diaryList }) => {
   return (
     <div className="DiaryList">
       <div className="menu_wrapper">
-        <ControlMenu
-          value={sortType}
-          onChange={setSortType}
-          optionList={sortOptionList}
-        />
+        <div className="left_col">
+          <ControlMenu
+            value={sortType}
+            onChange={setSortType}
+            optionList={sortOptionList}
+          />
 
-        <ControlMenu
-          value={filter}
-          onChange={setFilter}
-          optionList={filterOptionList}
-        />
+          <ControlMenu
+            value={filter}
+            onChange={setFilter}
+            optionList={filterOptionList}
+          />
+        </div>
+        <div className="right_col"></div>
       </div>
 
       {getProcessedDiaryList().map((it) => (
-        <div key={it.id} {...it} />
+        <DiaryItem key={it.id} {...it} />
       ))}
     </div>
   );
