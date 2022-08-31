@@ -29,7 +29,7 @@ const DiaryItem = ({ id, emotion, content, date }) => {
         <div className="diary_content_preview">{content.slice(0, 35)}</div>
       </div>
       <div className="btn_wrapper">
-        <MyButton text={"Edit"} onClick={goEdit} />
+        <MyButton text={"✏️"} onClick={goEdit} />
       </div>
     </div>
   );

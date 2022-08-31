@@ -1,39 +1,17 @@
+// @ts-nocheck
 import { useNavigate } from "react-router-dom";
-import { useContext, useRef, useEffect, useState } from "react";
+import React, {
+  useCallback,
+  useContext,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 import { DiaryDispatchContext } from "./../App.js";
 import MyHeader from "./MyHeader";
 import MyButton from "./MyButton";
 import EmotionItem from "./EmotionItem";
-
-const env = process.env;
-env.PUBLIC_URL = env.PUBLIC_URL || "";
-const emotionList = [
-  {
-    emotion_id: 1,
-    emotion_img: process.env.PUBLIC_URL + `/assets/emotion1.png`,
-    emotion_descript: "Best",
-  },
-  {
-    emotion_id: 2,
-    emotion_img: process.env.PUBLIC_URL + `/assets/emotion2.png`,
-    emotion_descript: "Great",
-  },
-  {
-    emotion_id: 3,
-    emotion_img: process.env.PUBLIC_URL + `/assets/emotion3.png`,
-    emotion_descript: "Good",
-  },
-  {
-    emotion_id: 4,
-    emotion_img: process.env.PUBLIC_URL + `/assets/emotion4.png`,
-    emotion_descript: "Bad",
-  },
-  {
-    emotion_id: 5,
-    emotion_img: process.env.PUBLIC_URL + `/assets/emotion5.png`,
-    emotion_descript: "Worst",
-  },
-];
+import { emotionList } from "../util/emotion";
 
 const getStringDate = (date) => {
   return date.toISOString().slice(0, 10);
@@ -46,20 +24,23 @@ const DiaryEditor = ({ isEdit, originData }) => {
   const [date, setDate] = useState(getStringDate(new Date()));
   const navigate = useNavigate();
 
-  const { onCreate, onEdit } = useContext(DiaryDispatchContext);
+  const { onCreate, onEdit, onRemove } = useContext(DiaryDispatchContext);
 
-  const handleClickEmote = (emotion) => {
+  const handleClickEmote = useCallback((emotion) => {
     setEmotion(emotion);
-  };
+  }, []);
 
   const handleSubmit = () => {
     if (content.length < 1) {
       contentRef.current.focus();
       return;
     }
+
     if (
       window.confirm(
-        isEdit ? "일기를 수정하시겠습니까?" : "일기를 등록하시겠습니까?"
+        isEdit
+          ? "Do you want to edit your diary ? "
+          : "Do you want to register your diary?"
       )
     ) {
       if (!isEdit) {
@@ -68,7 +49,15 @@ const DiaryEditor = ({ isEdit, originData }) => {
         onEdit(originData.id, date, content, emotion);
       }
     }
+
     navigate("/", { replace: true });
+  };
+
+  const handleRemove = () => {
+    if (window.confirm("Do you want to delete this diary?")) {
+      onRemove(originData.id);
+      navigate("/", { replace: true });
+    }
   };
 
   useEffect(() => {
@@ -82,12 +71,17 @@ const DiaryEditor = ({ isEdit, originData }) => {
   return (
     <div className="DiaryEditor">
       <MyHeader
-        headText={isEdit ? " 일기 수정" : "새로운 일기"}
+        headText={isEdit ? "E d i t  D i a r y" : "N e w  D i a r y "}
         leftChild={<MyButton text={"<"} onClick={() => navigate(-1)} />}
+        rightChild={
+          isEdit && (
+            <MyButton text={"Del"} type={"negative"} onClick={handleRemove} />
+          )
+        }
       />
       <div>
         <section>
-          <h4>오늘의 날짜</h4>
+          <h4>Date</h4>
           <div className="input_box">
             <input
               className="input_date"
@@ -100,9 +94,10 @@ const DiaryEditor = ({ isEdit, originData }) => {
           </div>
         </section>
         <section>
-          <h4>오늘의 감정</h4>
+          <h4>emotion</h4>
           <div className="input_box emotion_list_wrapper">
             {emotionList.map((it) => (
+              // <div key={it.emotion_id}>{it.emotion_descript}</div>
               <EmotionItem
                 key={it.emotion_id}
                 {...it}
@@ -113,12 +108,13 @@ const DiaryEditor = ({ isEdit, originData }) => {
           </div>
         </section>
         <section>
-          <h4>오늘의 일기</h4>
+          <h4>Diary</h4>
           <div className="input_box text_wrapper">
             <textarea
               ref={contentRef}
               value={content}
               onChange={(e) => setContent(e.target.value)}
+              placeholder={"How was your day ?"}
             />
           </div>
         </section>
