@@ -41,6 +41,11 @@ const Home = () => {
     console.log(data);
   }, [data]);
 
+  useEffect(() => {
+    const titleElement = document.getElementsByTagName("title")[0];
+    titleElement.innerHTML = `My diary list `;
+  }, []);
+
   const increaseMonth = () => {
     setCurDate(
       new Date(curDate.getFullYear(), curDate.getMonth() + 1, curDate.getDate())

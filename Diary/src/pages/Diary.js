@@ -13,6 +13,11 @@ const Diary = () => {
   const [data, setData] = useState();
 
   useEffect(() => {
+    const titleElement = document.getElementsByTagName("title")[0];
+    titleElement.innerHTML = `My diary - no.${id} diary `;
+  }, []);
+
+  useEffect(() => {
     if (diaryList.length >= 1) {
       const targetDiary = diaryList.find(
         (it) => parseInt(it.id) === parseInt(id)
@@ -41,7 +46,7 @@ const Diary = () => {
           leftChild={<MyButton text={"<"} onClick={() => navigate(-1)} />}
           rightChild={
             <MyButton
-              text={"Edit"}
+              text={"✏️"}
               onClick={() => navigate(`/edit/${data.id}`)}
             />
           }

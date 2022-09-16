@@ -19,7 +19,6 @@ const TodoCalendarBlock = styled.div`
   margin-top: 50px;
   font-family: "Hi Melody", cursive;
   border-radius: 10px;
-
   .react-calendar {
     border: 0;
     border-radius: 10px;
@@ -113,8 +112,14 @@ const Main = () => {
   }, [diaryList, curDate]);
 
   useEffect(() => {
+    const titleElement = document.getElementsByTagName("title")[0];
+    titleElement.innerHTML = `My diary - Log `;
+  }, []);
+
+  useEffect(() => {
     console.log(data);
   }, [data]);
+
   return (
     <div>
       <MyHeader
