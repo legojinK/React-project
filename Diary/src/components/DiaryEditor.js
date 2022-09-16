@@ -9,7 +9,7 @@ import React, {
 } from "react";
 import { DiaryDispatchContext } from "./../App.js";
 import MyHeader from "./MyHeader";
-import MyButton from "./MyButton";
+import MyButton from "./Mybutton";
 import EmotionItem from "./EmotionItem";
 import { emotionList } from "../util/emotion";
 

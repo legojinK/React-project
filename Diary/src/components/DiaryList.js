@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import DiaryItem from "./DiaryItem";
-import MyButton from "./MyButton";
+import MyButton from "./Mybutton";
 
 const sortOptionList = [
   { value: "lastest", name: "Lastest" },

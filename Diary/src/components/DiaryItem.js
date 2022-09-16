@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import MyButton from "./MyButton";
+import MyButton from "./Mybutton";
 
 const DiaryItem = ({ id, emotion, content, date }) => {
   const strDate = new Date(parseInt(date)).toLocaleDateString();

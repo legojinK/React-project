@@ -10,7 +10,7 @@ import { DiaryStateContext } from "../App";
 import moment from "moment";
 import "moment/locale/ko";
 import MyHeader from "../components/MyHeader";
-import MyButton from "../components/MyButton";
+import MyButton from "../components/Mybutton";
 import { getStringDate } from "../util/date";
 
 const TodoCalendarBlock = styled.div`

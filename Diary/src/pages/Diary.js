@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { DiaryStateContext } from "../App";
 import { getStringDate } from "../util/date";
 import { emotionList } from "../util/emotion.js";
-import MyButton from "../components/MyButton";
+import MyButton from "../components/Mybutton";
 import MyHeader from "../components/MyHeader";
 
 const Diary = () => {

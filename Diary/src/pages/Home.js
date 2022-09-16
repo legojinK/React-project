@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { DiaryStateContext } from "./../App";
 import MyHeader from "./../components/MyHeader";
-import MyButton from "./../components/MyButton";
+import MyButton from "../components/Mybutton";
 import DiaryList from "../components/DiaryList";
 
 const Home = () => {
