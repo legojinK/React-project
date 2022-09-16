@@ -1,8 +1,11 @@
+import DiaryEditor from "../components/DiaryEditor";
+
 const New = () => {
   return (
     <div>
-      <h1>Header</h1>
+      <DiaryEditor isEdit={undefined} originData={undefined} />
     </div>
   );
 };
+
 export default New;
