@@ -42,18 +42,13 @@
 ### 🌏Infra
 
   <details>
-      <summary>개발</summary>
+      <summary>개발 & 배포</summary>
       <br/>
       <ul>
-          <li>GitLab</li>
-    
+          <li>GitHub</li>
+       <li>Firebase</li>
       </ul>
-   <summary>배포</summary>
-      <br/>
-      <ul>
-          <li>Firebase</li>
-    
-      </ul>
+
   </details>
 
 -------------------------------------------------
@@ -61,6 +56,4 @@
 
 ## 💛 DevOps
  * 소스코드 관리 <img src="https://img.shields.io/badge/Github-3766AB?style=flat"/> 
-
-
 
