@@ -1,14 +1,13 @@
 
 
-  <p align="left">
+  <div align="left">
   <a href="https://lego-mydiary.web.app">
      <img src="https://user-images.githubusercontent.com/95139299/190842505-cd36dbb3-b027-44fd-a867-18e208fef772.png" width="60" height="70" /> 
-   
   </a>
  <h2>My Diary</h2>
-</p> 
+</div> 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/95139299/190850183-eab156ef-ae4d-4872-9fce-11bd9cbdcc48.png" width="300" height="500" /> 
+ <img src="https://user-images.githubusercontent.com/95139299/190850183-eab156ef-ae4d-4872-9fce-11bd9cbdcc48.png" width="250" height="400" /> 
 </p> 
 
 ## 🚀 Demo
