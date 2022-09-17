@@ -2,13 +2,12 @@
  ## My Diary
   <div align="center">
      <img src="https://user-images.githubusercontent.com/95139299/190842505-cd36dbb3-b027-44fd-a867-18e208fef772.png" width="60" height="70" /> 
-
   </div> 
 
 
-<div>
-   🖋 [My diary Link](https://lego-mydiary.web.app)
-</div>
+ <div>
+    🖋 [My diary Link](https://lego-mydiary.web.app)
+ </div>
 
 
 <br/>
