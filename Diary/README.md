@@ -24,18 +24,6 @@
 
 ## :video_game: 기술 스택
 
-### 💻Back-End
-
-  <details>
-      <summary>Back 자세히 살펴보기 📱</summary>
-      <br/>
-      <ul>
-          <li><img src="https://img.shields.io/badge/Java-8-3766AB?style=flat"/> on <img src="https://img.shields.io/badge/IntelliJ-3766AB?style=flat"/></li>
-          <li><img src="https://img.shields.io/badge/Spring-4-3766AB?style=flat"/></li>
-          <li><img src="https://img.shields.io/badge/SpringBoot-2.6.3-3766AB?style=flat"/></li>
-      </ul>
-  </details>
-
 ### 🎨Front-End
 
 <details>
@@ -58,7 +46,13 @@
       <br/>
       <ul>
           <li>GitLab</li>
-          <li>Heroku</li>
+    
+      </ul>
+   <summary>배포</summary>
+      <br/>
+      <ul>
+          <li>Firebase</li>
+    
       </ul>
   </details>
 
@@ -67,24 +61,6 @@
 
 ## 💛 DevOps
  * 소스코드 관리 <img src="https://img.shields.io/badge/Github-3766AB?style=flat"/> 
-## 💛 시연
- * https://youtu.be/HARW7QBXtJE
-
-## 🛠 Tech Stacks
-
-### Frontend
-
-![frontend_tech_stacks]
-
-> 
-
-### Backend
-
-![backend_tech_stacks]
-
-> 
 
 
-
-<br>
 
