@@ -15,7 +15,7 @@
 
 
 
-Try the tool: [My Diary](https://lego-mydiary.web.app)
+Try the tool  :  [My Diary](https://lego-mydiary.web.app)
 
 
 
@@ -38,10 +38,30 @@ Try the tool: [My Diary](https://lego-mydiary.web.app)
   </ul>
 
 
-
 -------------------------------------------------
 
 
 ## 💛 DevOps
  * 소스코드 관리  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+
+
+## 🛠️ Installation Steps
+
+1. Clone the repository
+```bash
+git clone https://github.com/legojinK/React-project.git
+```
+2. Change the working directory
+```bash
+cd Diary
+```
+3. Install dependencies
+```bash
+npm install
+```
+4. Run the app
+```bash
+npm start
+```
+🌟 You are all set!
 
