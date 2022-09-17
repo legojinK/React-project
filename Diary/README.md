@@ -1,8 +1,8 @@
 
-    ![image](https://user-images.githubusercontent.com/95139299/190842505-cd36dbb3-b027-44fd-a867-18e208fef772.png)
-
 
 <div align="center">
+
+    ![image](https://user-images.githubusercontent.com/95139299/190842505-cd36dbb3-b027-44fd-a867-18e208fef772.png)
 
   💻My diary<br>
   🖋 [My diary](https://lego-mydiary.web.app)
