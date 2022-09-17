@@ -8,6 +8,7 @@
  </div> 
 <p align="left">
  <img src="https://user-images.githubusercontent.com/95139299/190850183-eab156ef-ae4d-4872-9fce-11bd9cbdcc48.png" width="250" height="400" /> 
+ <img src="https://user-images.githubusercontent.com/95139299/190850715-dc7b624f-db8d-47fd-84d9-f4ca87c3b174.png" width="250" height="400" />
 </p> 
 
 ## 🚀 Demo
