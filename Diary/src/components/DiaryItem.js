@@ -26,7 +26,7 @@ const DiaryItem = ({ id, emotion, content, date }) => {
       </div>
       <div className="info_wrapper" onClick={goDetail}>
         <div className="diary_date">{strDate}</div>
-        <div className="diary_content_preview">{content.slice(0, 35)}</div>
+        <div className="diary_content_preview">{content.slice(0, 55)}</div>
       </div>
       <div className="btn_wrapper">
         <MyButton text={"✏️"} onClick={goEdit} />
