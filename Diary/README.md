@@ -26,8 +26,6 @@
 
 ### 🎨Front-End
 
-
- 
  <img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white"/><br/>
  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/> <br/>
  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/><br/>
@@ -42,8 +40,8 @@
 개발 & 배포
       <br/>
       <ul>
-       <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/></br>
-      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
+        <li><img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/></li>
+       <li><img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/></li>
        <li>Firebase</li>
       </ul>
 
