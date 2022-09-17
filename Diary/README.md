@@ -5,8 +5,8 @@
        <img src="https://user-images.githubusercontent.com/95139299/190842505-cd36dbb3-b027-44fd-a867-18e208fef772.png" width="60" height="70" /> 
       <h2>My Diary</h2>
     </a>
-  
  </div> 
+ 
 <div>
  <img src="https://user-images.githubusercontent.com/95139299/190850183-eab156ef-ae4d-4872-9fce-11bd9cbdcc48.png" width="200" height="250" /> 
  <img src="https://user-images.githubusercontent.com/95139299/190850715-dc7b624f-db8d-47fd-84d9-f4ca87c3b174.png" width="200" height="250" />
