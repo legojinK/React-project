@@ -30,11 +30,9 @@
     <summary>Front 자세히 살펴보기 🖍️</summary>
     <br/>
     <ul>
-        <li><img src="https://img.shields.io/badge/JavaScript-ES6+-3766AB?style=flat"/> on <img src="https://img.shields.io/badge/VScode-3766AB?style=flat"/></li>
-        <li><img src="https://img.shields.io/badge/Vue-2.6.14-3766AB?style=flat"/> </li>
-        <li><img src="https://img.shields.io/badge/Vuex-3.6.2-3766AB?style=flat"/> </li>
-        <li><img src="https://img.shields.io/badge/Vuetify-2.6.0-3766AB?style=flat"/> </li>
-        <li><img src="https://img.shields.io/badge/eslint-7.32.0-3766AB?style=flat"/> : 협업을 위한 formatter 라이브러리</li>
+     <li>JavaScript-ES6+</li>
+       <li>React</li>
+      <li>Styled components</li>
     </ul>
 </details>
 
