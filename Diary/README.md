@@ -25,19 +25,18 @@
 ## :video_game: 기술 스택
 
 ### 🎨Front-End
+<ul>
+ <li><img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white"/></li>
+ <li><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/> </li>
+ <li><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/></li>
+ <li><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/> </li>
+ <li><img src="https://img.shields.io/badge/styled components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/></li>
+</ul>
 
- <img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white"/><br/>
- <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/> <br/>
- <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/><br/>
- <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/> <br/>
- <img src="https://img.shields.io/badge/styled components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/>
 
 
+### 🌏배포
 
-
-### 🌏Infra
-
-개발 & 배포
       <br/>
       <ul>
         <li><img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/></li>
