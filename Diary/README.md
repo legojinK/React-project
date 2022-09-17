@@ -27,8 +27,6 @@
 
 Try the tool  :  [My Diary](https://lego-mydiary.web.app)
 
-
-
  <br/>
  
 ## :video_game: 기술 스택
@@ -54,7 +52,6 @@ Try the tool  :  [My Diary](https://lego-mydiary.web.app)
 
 ## 💛 DevOps
  * 소스코드 관리  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-
  <br/>
  
 ## 🛠️ Installation Steps
