@@ -30,7 +30,7 @@
     <summary>Front 자세히 살펴보기 🖍️</summary>
     <br/>
     <ul>
-     <li>JavaScript-ES6+</li>
+     <li><img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></li>
        <li>React</li>
       <li>Styled components</li>
     </ul>
