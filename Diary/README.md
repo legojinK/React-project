@@ -4,6 +4,8 @@
   <a href="https://lego-mydiary.web.app">
      <img src="https://user-images.githubusercontent.com/95139299/190842505-cd36dbb3-b027-44fd-a867-18e208fef772.png" width="60" height="70" /> 
   </a>
+  <img src="https://user-images.githubusercontent.com/95139299/190850183-eab156ef-ae4d-4872-9fce-11bd9cbdcc48.png" width="100" height="170" /> 
+
 </p>
 
 
