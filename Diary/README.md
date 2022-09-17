@@ -1,8 +1,8 @@
 
 
 <div align="center">
-     ![슬라이드1](https://user-images.githubusercontent.com/95139299/190842505-cd36dbb3-b027-44fd-a867-18e208fef772.png?raw=true)
-     <img src="https://user-images.githubusercontent.com/95139299/190842505-cd36dbb3-b027-44fd-a867-18e208fef772.png" width="150" height="200" />
+  
+     <img src="https://user-images.githubusercontent.com/95139299/190842505-cd36dbb3-b027-44fd-a867-18e208fef772.png" width="100" height="130" />
 
   💻My diary<br>
   🖋 [My diary](https://lego-mydiary.web.app)
