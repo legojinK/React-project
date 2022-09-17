@@ -26,7 +26,7 @@
 
 ### 🎨Front-End
 
-<details>
+
  
  <img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white"/><br/>
  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/> <br/>
@@ -35,12 +35,10 @@
  <img src="https://img.shields.io/badge/styled components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/>
 
 
-</details>
 
 
 ### 🌏Infra
 
-  <details>
 개발 & 배포
       <br/>
       <ul>
@@ -49,7 +47,7 @@
        <li>Firebase</li>
       </ul>
 
-  </details>
+
 
 -------------------------------------------------
 
