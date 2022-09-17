@@ -2,7 +2,7 @@
 
 <div align="center">
 
-     <img src = "https://user-images.githubusercontent.com/95139299/190842505-cd36dbb3-b027-44fd-a867-18e208fef772.png">
+     <img src="https://user-images.githubusercontent.com/95139299/190842505-cd36dbb3-b027-44fd-a867-18e208fef772.png" width="200" height="400" />
   
 
   💻My diary<br>
