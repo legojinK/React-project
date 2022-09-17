@@ -6,11 +6,11 @@
     </a>
    <h2>My Diary</h2>
  </div> 
-<p align="left">
- <img src="https://user-images.githubusercontent.com/95139299/190850183-eab156ef-ae4d-4872-9fce-11bd9cbdcc48.png" width="250" height="400" /> 
- <img src="https://user-images.githubusercontent.com/95139299/190850715-dc7b624f-db8d-47fd-84d9-f4ca87c3b174.png" width="250" height="400" />
-</p> 
-
+<div>
+ <img src="https://user-images.githubusercontent.com/95139299/190850183-eab156ef-ae4d-4872-9fce-11bd9cbdcc48.png" width="200" height="320" /> 
+ <img src="https://user-images.githubusercontent.com/95139299/190850715-dc7b624f-db8d-47fd-84d9-f4ca87c3b174.png" width="200" height="320" />
+  <img src="https://user-images.githubusercontent.com/95139299/190850737-02b32962-e479-4f93-addb-13b762d3d045.png" width="200" height="320" />
+</div>
 ## 🚀 Demo
 
 <a href="https://lego-mydiary.web.app" >
