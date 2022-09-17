@@ -27,33 +27,25 @@
 ### 🎨Front-End
 
 <details>
-    <summary>Front 자세히 살펴보기 🖍️</summary>
-    <br/>
-    <ul>
-     <img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white"/>
- <br/>
-     <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-
- <br/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
- <br/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/>
- <br/>
-<img src="https://img.shields.io/badge/styled components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/>
+ 
+ <img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white"/><br/>
+ <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/> <br/>
+ <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/><br/>
+ <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/> <br/>
+ <img src="https://img.shields.io/badge/styled components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/>
 
 
-    </ul>
 </details>
 
 
 ### 🌏Infra
 
   <details>
-      <summary>개발 & 배포</summary>
+개발 & 배포
       <br/>
       <ul>
        <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/></br>
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
+      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
        <li>Firebase</li>
       </ul>
 
