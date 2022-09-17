@@ -2,8 +2,8 @@
 
  <div align="left">
     <a href="https://lego-mydiary.web.app">
-       <img src="https://user-images.githubusercontent.com/95139299/190842505-cd36dbb3-b027-44fd-a867-18e208fef772.png" width="60" height="70" /> 
-      <h2>My Diary</h2>
+       <img src="https://user-images.githubusercontent.com/95139299/190842505-cd36dbb3-b027-44fd-a867-18e208fef772.png" width="60" height="70" /><h2>My Diary</h2>
+      
     </a>
  </div> 
  
