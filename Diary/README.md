@@ -1,6 +1,6 @@
 
 <p align="left">
-    ![Mydiary](/React-project/Diary/public/assets/favicon.png?raw=true "Mydiary")
+    ![symbol1.pdf](https://github.com/legojinK/React-project/files/9591016/symbol1.pdf)
 </p>
 
 <div align="center">
