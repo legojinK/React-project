@@ -1,19 +1,16 @@
 
-## My
-![슬라이드1](https://user-images.githubusercontent.com/95139299/190850183-eab156ef-ae4d-4872-9fce-11bd9cbdcc48.png?raw=true)
-
  <div align="left">
   <a href="https://lego-mydiary.web.app">
      <img src="https://user-images.githubusercontent.com/95139299/190842505-cd36dbb3-b027-44fd-a867-18e208fef772.png" width="60" height="70" />My Diary
   </a>
-  <h2>my</h2>
+  <h2>pages</h2>
  </div> 
  
 <div>
  
- <img src="https://user-images.githubusercontent.com/95139299/190850183-eab156ef-ae4d-4872-9fce-11bd9cbdcc48.png" width="250" height="300" margin-right="20"/> 
- <img src="https://user-images.githubusercontent.com/95139299/190850715-dc7b624f-db8d-47fd-84d9-f4ca87c3b174.png" width="250" height="300" />
- <img src="https://user-images.githubusercontent.com/95139299/190850737-02b32962-e479-4f93-addb-13b762d3d045.png" width="250" height="300" />
+ <img src="https://user-images.githubusercontent.com/95139299/190850183-eab156ef-ae4d-4872-9fce-11bd9cbdcc48.png" width="250" height="350" /> 
+ <img src="https://user-images.githubusercontent.com/95139299/190850715-dc7b624f-db8d-47fd-84d9-f4ca87c3b174.png" width="250" height="350" />
+ <img src="https://user-images.githubusercontent.com/95139299/190850737-02b32962-e479-4f93-addb-13b762d3d045.png" width="250" height="350" />
 </div>
 
 
