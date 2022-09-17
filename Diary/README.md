@@ -1,6 +1,6 @@
 
 <p align="left">
-    <img src="https://github.com/legojinK/React-project/Diary/public/assets/favicon" alt="diary" width="120" height="120">
+    ![Mydiary](/React-project/Diary/public/assets/favicon.png?raw=true "Mydiary")
 </p>
 
 <div align="center">
@@ -25,13 +25,13 @@
 
 ### Frontend
 
-![frontend_tech_stacks]()
+![frontend_tech_stacks]
 
 > 
 
 ### Backend
 
-![backend_tech_stacks]()
+![backend_tech_stacks]
 
 > 
 
