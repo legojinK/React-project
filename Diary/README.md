@@ -6,12 +6,11 @@
   </a>
 </p>
 
-
- <div>
-    🖋[My diary Link](https://lego-mydiary.web.app)
- </div>
-
-
+## 🚀 Demo
+<a href="https://lego-mydiary.web.app" >
+<img src="https://img.shields.io/website?url=https%3A%2F%2Frahuldkjain.github.io%2Fgh-profile-readme-generator&logo=github&style=flat-square" />
+</a>
+Try the tool: [My Diary](https://lego-mydiary.web.app)
 
 ## :video_game: 기술 스택
 
@@ -23,7 +22,6 @@
  <li><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/> </li>
  <li><img src="https://img.shields.io/badge/styled components-DB7093?style=flat-square&logo=styled-components&logoColor=white"/></li>
 </ul>
-
 
 
 ### 🌏배포
