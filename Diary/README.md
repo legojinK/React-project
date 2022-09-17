@@ -5,10 +5,8 @@
   </div> 
 
 
-<div>
- 
+<div align="center">
   🖋 [My diary Link](https://lego-mydiary.web.app)
-
 </div>
 <br/>
 
