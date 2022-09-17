@@ -1,7 +1,7 @@
 
 
   <div>
-     <img src="https://user-images.githubusercontent.com/95139299/190842505-cd36dbb3-b027-44fd-a867-18e208fef772.png" width="50" height="60" /> My Diary
+     <img src="https://user-images.githubusercontent.com/95139299/190842505-cd36dbb3-b027-44fd-a867-18e208fef772.png" width="40" height="45" /> My Diary
   </div> 
  ##
 
